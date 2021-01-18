@@ -1,0 +1,6 @@
+.header__mobile-line {
+  height: 0;
+  width: 100%;
+  border-bottom: 1px solid rgba(158, 154, 168, .25);
+  margin-bottom: 32px;
+}

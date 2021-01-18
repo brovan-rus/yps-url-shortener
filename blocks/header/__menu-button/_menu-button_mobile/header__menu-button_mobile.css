@@ -1,0 +1,21 @@
+.header__menu-button_mobile{
+  display: none;
+}
+
+@media screen and (max-width: 850px){
+  .header__menu-button_mobile{
+    display: block;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    width: calc(324px - 79 * 100vw / 560);
+
+  }
+}
+
+@media screen and (max-width: 400px){
+  .header__menu-button_mobile{
+    width: 100%;
+  }
+}
+

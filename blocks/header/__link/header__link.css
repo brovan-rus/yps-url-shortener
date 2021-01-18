@@ -1,0 +1,26 @@
+.header__link{
+  font-family: 'Poppins', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px; /* identical to box height */
+  color: #9E9AA8;
+  text-decoration: none;
+  transition: color 0.3s linear;
+}
+
+.header__link:last-of-type{
+  grid-column: -3/-2;
+  margin-right: 7px;
+}
+
+.header__link:hover{
+  color: #34313D;
+}
+
+
+@media screen and (max-width: 850px){
+  .header__link{
+    display: none;
+  }
+}

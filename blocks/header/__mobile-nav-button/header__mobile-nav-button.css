@@ -1,0 +1,15 @@
+.header__mobile-nav-button{
+  font-size: 30px;
+  font-weight: bold;
+  width: 24px;
+  color: #9E9AA8;
+  justify-self: end;
+  text-align: center;
+  align-self: start;
+}
+
+@media screen and (min-width: 850px){
+  .header__mobile-nav-button{
+    display: none;
+  }
+}

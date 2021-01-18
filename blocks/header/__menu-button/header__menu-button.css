@@ -1,0 +1,30 @@
+.header__menu-button{
+  width: 105px;
+  height: 40px;
+  background-color: #2BD0D0;
+  color: #fff;
+  border-radius: 28px;
+  border: 0;
+  cursor: pointer;
+  transition: background-color 0.3s linear;
+  font-family: 'Poppins', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+
+}
+
+@media screen and (max-width: 850px){
+  .header__menu-button{
+    display: none;
+  }
+}
+
+.header__menu-button:focus{
+  outline: 0;
+}
+
+.header__menu-button:hover{
+  background-color: #9AE3E3;
+}

@@ -1,0 +1,9 @@
+.header__mobile-checkbox{
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.header__mobile-checkbox:checked + .header__mobile-nav {
+  transform: translate(0, 0);
+}

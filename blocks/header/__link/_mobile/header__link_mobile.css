@@ -1,0 +1,22 @@
+.header__link_mobile{
+  display: none;
+}
+
+@media screen and (max-width: 850px){
+  .header__link_mobile{
+    display: block;
+    margin: 0 0 30px 0;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+  }
+
+.header__link_mobile:last-of-type{
+    margin: 0 0 27px 0;
+  }
+}
+
+.header__link_mobile:hover{
+  color: #fff;
+}
+
