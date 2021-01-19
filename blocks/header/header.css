@@ -1,6 +1,24 @@
 .header {
-  width: 77%;
   max-width: 1108px;
-  overflow: hidden;
   padding: 55px 0 0 0;
+  z-index: 0;
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  grid-template-columns: 100%;
+  row-gap: 78px;
+}
+
+@media screen and (min-width: 850px){
+  .header{
+    min-height: 800px;
+    width: 77%;
+  };
+}
+
+@media screen and (max-width: 850px){
+  .header{
+    row-gap: 23px;
+    width: 87.2%;
+    min-height: 927px;
+  };
 }

@@ -1,9 +1,11 @@
 .page {
-  min-width: 320px;
+  /*min-width: 320px;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 0;
+  overflow: hidden;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

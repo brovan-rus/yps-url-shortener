@@ -12,17 +12,13 @@
   font-weight: bold;
   font-size: 15px;
   line-height: 22px;
-
+  outline: 0;
 }
 
 @media screen and (max-width: 850px){
   .header__menu-button{
     display: none;
   }
-}
-
-.header__menu-button:focus{
-  outline: 0;
 }
 
 .header__menu-button:hover{

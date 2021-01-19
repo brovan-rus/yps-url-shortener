@@ -5,5 +5,5 @@
 }
 
 .header__mobile-checkbox:checked + .header__mobile-nav {
-  transform: translate(0, 0);
+  transform: translate(0, 15%);
 }

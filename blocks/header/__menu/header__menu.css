@@ -12,7 +12,6 @@
     display: grid;
     grid-template-columns: repeat(2, min-content);
     justify-content: space-between;
-    row-gap: 23px;
     align-items: center;
   }
 }
