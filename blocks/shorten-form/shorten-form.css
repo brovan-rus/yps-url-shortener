@@ -1,0 +1,32 @@
+.shorten-form{
+  padding: 0 65px 0 64px;
+  box-sizing: border-box;
+  transform: translate(0, -50%);
+  width: 100%;
+  min-height: 160px;
+  background-color: #3A3054;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 78% 19.165%;
+  grid-template-rows: 64px;
+  column-gap: 24px;
+  justify-content: space-between;
+  align-content: center;
+  background-image: url('../../../images/bg-shorten-desktop.svg');
+  background-size: cover;
+  border: 0;
+  background-repeat: no-repeat
+}
+
+@media screen and (max-width: 850px){
+  .shorten-form{
+    padding: 24px;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 16px;
+    background-image: url('../../images/bg-shorten-mobile.svg');
+    background-position: right top;
+    background-size: contain;
+  }
+}
+

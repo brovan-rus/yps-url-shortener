@@ -1,0 +1,26 @@
+.shorten-form__hint{
+  font-family: 'Poppins', 'Arial', 'Helvetica', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.109091px;
+  color: #F46363;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+@media screen and (max-width: 850px){
+  .shorten-form__hint{
+    font-size: 14px;
+    letter-spacing: 0.091px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .shorten-form__hint{
+    font-size: 12px;
+    letter-spacing: 0.0818182px;
+  }
+}

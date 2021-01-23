@@ -1,0 +1,4 @@
+.shorten-form__input-containter{
+  display: flex;
+  flex-direction: column;
+}

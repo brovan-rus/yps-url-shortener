@@ -1,6 +1,7 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
 @import url('../blocks/page/page.css');
+@import url('../blocks/page/__header/page__header.css');
 @import url('../blocks/page/_position/page_position_center.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__mobile-line/header__mobile-line.css');
@@ -20,4 +21,12 @@
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/logo/_place_header/logo_place_header.css');
 @import url('../blocks/content/content.css');
+@import url('../blocks/content/__example/content__example.css');
+@import url('../blocks/content/__feachures/content__feachures.css');
+@import url('../blocks/content/__stat/content__stat.css');
+@import url('../blocks/shorten-form/shorten-form.css');
+@import url('../blocks/shorten-form/__input/shorten-form__input.css');
+@import url('../blocks/shorten-form/__button/shorten-form__button.css');
+@import url('../blocks/shorten-form/__hint/shorten-form__hint.css');
+@import url('../blocks/shorten-form/__input-container/shornten-form__input-container.css');
 @import url('../blocks/footer/footer.css');

@@ -6,13 +6,9 @@
   grid-template-rows: min-content 1fr;
   grid-template-columns: 100%;
   row-gap: 78px;
-}
-
-@media screen and (min-width: 850px){
-  .header{
-    min-height: 800px;
-    width: 77%;
-  };
+  min-height: 800px;
+  width: 77%;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 850px){

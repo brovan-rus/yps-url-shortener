@@ -2,15 +2,17 @@
   width: 100%;
   display: grid;
   grid-template-columns: 51% 66.2%;
-  grid-template-rows: 100%;
-  column-gap: 100px;
+  grid-template-rows: calc(100% - 84px);
+  column-gap: calc(0.06944 * 100vw);
 }
+
 .header__intro::after{
   content: '';
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url('../../../images/illustration-working.svg');
+  background-position: center ;
   z-index: 1;
 }
 @media screen and (max-width: 851px){
