@@ -1,17 +1,18 @@
 .content{
   display: grid;
   grid-template-columns: 77.09%;
-  grid-template-rows: 84px repeat(3, min-content);
+  grid-template-rows: repeat(4, min-content);
   justify-content: center;
   width: 100%;
   background-color: #F2F2F2;
-  height: 100vh;
+  justify-items: center;
+
 }
 
 @media screen and (max-width: 850px){
   .content{
     grid-template-columns: 87.2%;
-    grid-template-rows: 80px repeat(3, min-content);
+    grid-template-rows: repeat(4, min-content);
   }
 }
 

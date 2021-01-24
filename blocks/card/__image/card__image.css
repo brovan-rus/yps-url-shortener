@@ -1,0 +1,14 @@
+.card__image{
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background-color: #3A3054;
+  object-fit: scale-down;
+  margin: -44px 0 33px 0;
+}
+
+@media screen and (max-width: 1200px){
+  .card__image{
+    margin: -44px auto 33px auto;
+  }
+}

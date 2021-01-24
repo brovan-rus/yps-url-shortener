@@ -21,6 +21,8 @@
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/logo/_place_header/logo_place_header.css');
 @import url('../blocks/content/content.css');
+@import url('../blocks/content/__statistic/content__statistic.css');
+@import url('../blocks/content/__feachures/content__feachures.css');
 @import url('../blocks/shorten-form/shorten-form.css');
 @import url('../blocks/shorten-form/__input/shorten-form__input.css');
 @import url('../blocks/shorten-form/__submit-button/shorten-form__submit-button.css');
@@ -33,4 +35,14 @@
 @import url('../blocks/shorten-result/__copy-button/shorten-result__copy-button.css');
 @import url('../blocks/shorten-result/__copy-button/_avtive/shorten-result__copy-button_active.css');
 @import url('../blocks/shorten-result/_active/shorten-result_active.css');
+@import url('../blocks/statistic/statistic.css');
+@import url('../blocks/statistic/__titile/statistic__title.css');
+@import url('../blocks/statistic/__subtitle/statistic__subtitile.css');
+@import url('../blocks/feachures/feachures.css');
+@import url('../blocks/card/card.css');
+@import url('../blocks/card/__image/card__image.css');
+@import url('../blocks/card/__text/card__text.css');
+@import url('../blocks/card/__titile/card__title.css');
+@import url('../blocks/card/_position/card_position_middle.css');
+@import url('../blocks/card/_position/card_position_bottom.css');
 @import url('../blocks/footer/footer.css');

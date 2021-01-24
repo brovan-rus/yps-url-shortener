@@ -1,0 +1,30 @@
+.statistic__subtitle{
+  font-family: 'Poppins', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.122727px;
+  color: #9E9AA8;
+  max-width: 540px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 850px){
+  .statistic__subtitle{
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.118px;
+  }
+}
+
+
+@media screen and (max-width: 375px){
+  .statistic__subtitle{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.109091px;
+  }
+}
