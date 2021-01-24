@@ -1,0 +1,21 @@
+.shorten-result__container{
+  box-sizing: border-box;
+  padding: 18px 24px 18px 32px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 103px;
+  grid-template-rows: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  align-items: center;
+  column-gap: 24px;
+}
+
+@media screen and (max-width: 950px){
+  .shorten-result__container{
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, 1fr);
+   /* padding: 6px 16px 16px 16px;*/
+   padding: 0;
+    justify-items: start;
+  }
+}

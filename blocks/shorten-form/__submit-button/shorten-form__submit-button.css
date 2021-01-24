@@ -1,5 +1,6 @@
-.shorten-form__button{
-  padding: 0;
+.shorten-form__submit-button{
+  padding: 16px 0;
+  box-sizing: border-box;
   height: 100%;
   width: 100%;
   background-color: #2BD0D0;
@@ -14,11 +15,11 @@
   cursor: pointer;
   transition: background-color .3s linear ;
 }
-.shorten-form__button:hover{
+.shorten-form__submit-button:hover{
   background-color: #9AE3E3;
 }
 @media screen and (max-width: 850px){
-  .shorten-form__button{
+  .shorten-form__submit-button{
     height: 48px;
     align-self: end;
     font-size: 19px;
@@ -26,7 +27,7 @@
   }
 }
 @media screen and (max-width: 375px){
-  .shorten-form__button{
+  .shorten-form__submit-button{
     font-size: 18px;
     line-height: 27px;
   }

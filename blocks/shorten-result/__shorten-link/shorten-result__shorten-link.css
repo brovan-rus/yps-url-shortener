@@ -1,0 +1,21 @@
+.shorten-result__shorten-link{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: right;
+  letter-spacing: 0.15px;
+  color: #2BD0D0;
+}
+
+@media screen and (max-width: 950px){
+  .shorten-result__initial-link{
+    border-bottom: 1px solid rgba(158, 154, 168, .25);
+    width: 100%;
+    padding: 6px 16px;
+    box-sizing: border-box;
+  }
+}

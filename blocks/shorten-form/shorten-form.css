@@ -3,7 +3,7 @@
   box-sizing: border-box;
   transform: translate(0, -50%);
   width: 100%;
-  min-height: 160px;
+  min-height: 168px;
   background-color: #3A3054;
   border-radius: 10px;
   display: grid;
@@ -18,7 +18,7 @@
   background-repeat: no-repeat
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1150px){
   .shorten-form{
     padding: 24px;
     grid-template-columns: 100%;
@@ -30,3 +30,8 @@
   }
 }
 
+@media screen and (max-width: 850px){
+  .shorten-form{
+    min-height: 160px;
+  }
+}

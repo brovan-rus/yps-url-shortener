@@ -7,12 +7,11 @@
   border-radius: 10px;
   font-family: 'Poppins', 'Arial', 'Helvetica', sans-serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: calc(15.19px + 100vw / 295);
   line-height: 36px;
   letter-spacing: 0.15px;
   color: #34313D;
   mix-blend-mode: normal;
-  margin-bottom: 8px;
   border: 0;
 }
 .shorten-form__input::placeholder{
@@ -29,7 +28,6 @@
 }
 @media screen and (max-width: 850px){
   .shorten-form__input{
-    margin-bottom: 4px;
     height: 48px;
     font-size: 18px;
     letter-spacing: 0.135px;

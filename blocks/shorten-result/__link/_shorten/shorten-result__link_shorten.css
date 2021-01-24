@@ -1,0 +1,10 @@
+.shorten-result__link_shorten{
+  color: #2BD0D0;
+}
+
+@media screen and (max-width: 950px){
+  .shorten-result__link_shorten{
+    border: 0;
+    margin-bottom: 2px;
+  }
+}

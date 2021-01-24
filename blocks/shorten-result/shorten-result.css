@@ -1,0 +1,14 @@
+.shorten-result{
+  display: none;
+  grid-template-rows: 72px;
+  row-gap: 16px;
+  padding: 24px 0 0 0;
+  grid-auto-rows: 72px;
+}
+
+@media screen and (max-width: 950px){
+  .shorten-result{
+    grid-template-rows: 155px;
+    grid-auto-rows: 155px;
+  }
+}
