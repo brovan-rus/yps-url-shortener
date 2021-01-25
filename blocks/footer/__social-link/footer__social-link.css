@@ -1,0 +1,11 @@
+.footer__social-link{
+  display: flex;
+  width: 24px;
+  height: 24px;
+  transition: fill .3s linear;
+  fill: #fff;
+}
+
+.footer__social-link:hover{
+  fill: #2BD0D0;
+}

@@ -21,4 +21,8 @@
     letter-spacing: -0.7px;
   }
 }
-
+@media screen and (max-width: 850px){
+  .boost__title{
+    margin-bottom: 16px;
+  }
+}

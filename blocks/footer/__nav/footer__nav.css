@@ -1,0 +1,18 @@
+.footer__nav{
+  background-color: #232127;
+  padding: 72px 130px;
+  box-sizing: border-box;
+  min-height: 310px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: min-content;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1200px){
+  .footer__nav{
+    grid-template-columns: min-content;
+    grid-template-rows: repeat(2, min-content);
+    row-gap: 49px;
+  }
+}

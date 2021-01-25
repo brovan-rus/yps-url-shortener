@@ -1,0 +1,11 @@
+.footer__column-title{
+  font-family: 'Poppins', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  color: #FFFFFF;
+  margin: 0 0 22px 0;
+  padding: 0;
+}

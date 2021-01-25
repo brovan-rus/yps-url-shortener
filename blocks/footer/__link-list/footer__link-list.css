@@ -1,0 +1,13 @@
+.footer__link-list{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: grid;
+  row-gap: 10px;
+}
+
+@media screen and (max-width: 1200px){
+  .footer__link-list{
+    text-align: center;
+  }
+}

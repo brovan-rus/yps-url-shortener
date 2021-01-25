@@ -1,0 +1,12 @@
+.footer__social-container{
+  display: grid;
+  grid-template-columns: repeat(4, min-content);
+  grid-template-rows: min-content;
+  column-gap: 24px;
+}
+
+@media screen and (max-width: 1200px){
+  .footer__social-container{
+    padding-top: 8px;
+  }
+}

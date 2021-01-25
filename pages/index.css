@@ -21,6 +21,7 @@
 /* @import url('../blocks/header/__button/header__button.css'); */
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/logo/_place_header/logo_place_header.css');
+@import url('../blocks/logo/_place_footer/logo_place_footer.css');
 @import url('../blocks/content/content.css');
 @import url('../blocks/content/__statistic/content__statistic.css');
 @import url('../blocks/content/__feachures/content__feachures.css');
@@ -49,3 +50,11 @@
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/boost/boost.css');
 @import url('../blocks/boost/__titile/boost__title.css');
+@import url('../blocks/footer/__nav/footer__nav.css');
+@import url('../blocks/footer/__social-container/footer__social-container.css');
+@import url('../blocks/footer/__social-link/footer__social-link.css');
+@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__container/footer__container.css');
+@import url('../blocks/footer/__column/footer__column.css');
+@import url('../blocks/footer/__link-list/footer__link-list.css');
+@import url('../blocks/footer/__column-title/footer__column-title.css');

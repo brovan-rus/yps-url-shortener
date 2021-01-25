@@ -1,0 +1,9 @@
+.logo_place_footer{
+  background-image: url('../../../images/logo-footer.svg');
+}
+
+@media screen and (max-width: 1200px){
+  .logo_place_footer{
+    margin: auto;
+  }
+}
