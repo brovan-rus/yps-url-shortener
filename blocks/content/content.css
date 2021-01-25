@@ -6,6 +6,8 @@
   width: 100%;
   background-color: #F2F2F2;
   justify-items: center;
+  box-sizing: border-box;
+  padding-bottom: 120px;
 
 }
 
@@ -13,6 +15,7 @@
   .content{
     grid-template-columns: 87.2%;
     grid-template-rows: repeat(4, min-content);
+    padding-bottom: 80px;
   }
 }
 

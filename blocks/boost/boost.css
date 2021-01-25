@@ -1,0 +1,20 @@
+.boost{
+  width: 100%;
+  background-image: url('../../images/bg-boost-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #3A3054;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 850px){
+  .boost{
+    min-height: 250px;
+    background-image: url('../../images/bg-boost-mobile.svg');
+  }
+}
