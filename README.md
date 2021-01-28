@@ -18,7 +18,7 @@ The technologies used on this stage:
 * *grid* layout
 * HTML 5 *sematnic*
 * Pseudoclasses and pseudoelements in CSS
-* Резиновая верска
+* Resin layout
 * Vendor fonts
 * Fonts smoothing and rendering
 * Adaptive layout for smartphones
